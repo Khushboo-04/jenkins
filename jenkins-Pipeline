@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                
+            sh "git pull  https://github.com/Khushboo-04/jenkins"  
             }
         }
     }
