@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-            git pull  'https://github.com/shubhamkalsait/EasyCRUD.git' 
+            git pull  ''
             }
         }
     }
